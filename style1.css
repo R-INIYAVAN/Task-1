@@ -630,6 +630,10 @@ body{
         display: block;
     }
 
+    .Heading-container-container{
+        display: none;
+    }
+
     .searchbar-content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
