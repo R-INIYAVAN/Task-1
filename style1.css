@@ -50,6 +50,7 @@ body{
 .mobile-front-image-container{
     display: flex;
     width: 100%;
+    margin-bottom: 9.5%;
     /* background-color: yellowgreen; */
 }
 
@@ -62,7 +63,7 @@ body{
 .mobile-browse-options{
     display: flex;
     flex-direction: column;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     gap:34px;
     font-family: Helvetica;
     font-size: 200%;
@@ -74,12 +75,12 @@ body{
     color: #565656;
     padding-bottom: 9%;
     padding-left: 2.7%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #444;
 }
 
 .mobile-browse-heading{
     display: flex;
-    background-color: coral;
+    /* background-color: coral; */
     margin-top: 20px;
     margin-bottom: 6.3%;
     font-family: Helvetica;
@@ -94,7 +95,7 @@ body{
 
 .mobile-browse-container{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid #444; */
     flex-direction: column;
     width: 83%;
     
@@ -102,7 +103,7 @@ body{
 
 .mobile-browse{
     display: flex;
-    background-color: brown;
+    /* background-color: brown; */
     font-family: Helvetica;
     font-size: 37px;
     font-weight: bold;
@@ -113,13 +114,13 @@ body{
     color: #000;
     padding-bottom: 6.7%;
     padding-left: 0%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #444;
     margin-bottom: 5%;
 }
 
 .mobile-browse-container-container{
     width: 100%;
-    background-color: #565656;
+    /* background-color: #565656; */
     display: flex;
     justify-content: center;
 }
@@ -128,7 +129,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     padding-top: 15%;
     
     
@@ -138,7 +139,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     width: 90%;
     margin-bottom: 146px;
 }
@@ -152,7 +153,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: 100%;
     padding-top: 7%;
 }
@@ -204,8 +205,8 @@ body{
     letter-spacing: 0.22px;
     color: #000;
     width: 86%;
-    border-top:1px solid black;
-    border-bottom:1px solid black;
+    border-top:1px solid #444;
+    border-bottom:1px solid #444;
     padding-top: 3.8%;
     padding-bottom: 3.8%;
 
@@ -222,7 +223,7 @@ body{
 .mobile-contact-container{
     display: flex;
     flex-direction: column;
-    background-color: orange;
+    /* background-color: orange; */
     width: 89%;
     align-items: center;
     margin-top: 8.5%;
@@ -241,7 +242,7 @@ body{
         text-align: center;
         color: #444;
 
-        background-color: lightgreen;
+        /* background-color: lightgreen; */
 }
 
 .mobile-contact1{
@@ -259,7 +260,7 @@ body{
     width: 85%;
     margin-top: 95px;
     
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .mobile-contact2{
@@ -276,20 +277,20 @@ body{
     color: #000;
 
     margin-top: 55px;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 
 
 }
 
 .mobile-menu-container{
-    background-color:chartreuse;
+    /* background-color:chartreuse; */
     width: 85%;
-    border-top: 1px solid black;
+    border-top: 1px solid #444;
 }
 
 .mobile-menu-heading{
     display: flex;
-    background-color: pink;
+    /* background-color: pink; */
     font-family: Helvetica;
     font-size: 46px;
     font-weight: normal;
@@ -305,7 +306,7 @@ body{
 .mobile-menu-options{
     display: flex;
     flex-direction: column;
-    background-color: lime;
+    /* background-color: lime; */
     font-family: Helvetica;
     font-size: 38px;
     font-weight: bold;
@@ -320,7 +321,7 @@ body{
 .mobile-about-us{
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 86%;
     margin-top: 135px;
     margin-bottom: 90px;
@@ -328,7 +329,7 @@ body{
 
 .mobile-about-us-heading{
     display: flex;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     font-family: Helvetica;
     font-size: 47px;
     font-weight: normal;
@@ -342,7 +343,7 @@ body{
 
 .mobile-about-us-content{
     display: flex;
-    background-color:violet;
+    /* background-color:violet; */
     font-family: Helvetica;
     font-size: 32px;
     font-weight: normal;
@@ -356,12 +357,12 @@ body{
 .mobile-icon-container{
 
     display: flex;
-    background-color: peru;
+    /* background-color: peru; */
     width: 86.5%;
     height: fit-content;
     gap: 55px;
     padding-bottom: 83px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #444;
 }
 
 .mobile-icon{
@@ -370,7 +371,7 @@ body{
 
 .mobile-powered{
     display: flex;
-    background-color: cyan;
+    /* background-color: cyan; */
     width: 86.5%;
     font-family: Helvetica;
     font-size: 35px;
