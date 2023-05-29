@@ -803,7 +803,7 @@ body{
     .Front-image{
         width: 100%;
         object-fit: cover;
-        height: auto;
+        height: 100%;
     }
     
     .Image-container-container{
