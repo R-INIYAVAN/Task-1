@@ -84,6 +84,12 @@ body{
     border-bottom: 1px solid #444;
 }
 
+@supports (display: flex){
+    .option{
+        padding-bottom: 34px;
+    }
+}
+
 .mobile-browse-heading{
     display: flex;
     margin-top: 20px;
