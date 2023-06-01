@@ -70,7 +70,7 @@ body{
 .mobile-browse-options{
     display: flex;
     flex-direction: column;
-    gap:34px;
+    /* gap:34px; */
     font-family: Helvetica;
     font-size: 200%;
     font-weight: bold;
@@ -84,12 +84,20 @@ body{
     border-bottom: 1px solid #444;
 }
 
-@supports not (gap: 34px){
+.option{
+    margin-top: 34px;
+}
+
+.option:first-child{
+    margin-top: 0%;
+}
+
+/* @supports not (gap: 34px){
     .option{
         margin-bottom: 34px;
         gap: 0px;
     }
-}
+} */
 
 .mobile-browse-heading{
     display: flex;
@@ -312,7 +320,15 @@ body{
     line-height: normal;
     letter-spacing: 0.25px;
     color: #000;
-    gap: 50px;
+    /* gap: 50px; */
+}
+
+.menu-option{
+    margin-top: 50px;
+}
+
+.menu-option:first-child{
+    margin-top: 0%;
 }
 
 .mobile-about-us{
@@ -353,7 +369,7 @@ body{
     display: flex;
     width: 86.5%;
     height: fit-content;
-    gap: 55px;
+    /* gap: 55px; */
     padding-bottom: 83px;
     border-bottom: 1px solid #444;
 }
@@ -361,6 +377,11 @@ body{
 .mobile-icon{
     height: 55px;
     width: 55px;
+    margin-right: 55px;
+}
+
+.mobile-icon:last-child{
+    margin-right: 0%;
 }
 
 .mobile-powered{
@@ -496,7 +517,7 @@ body{
         display: flex;
         flex-direction: column;
         padding-left: 8px;
-        /* gap: 13px; */
+        /* gap: 13px; */                       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
         padding-top: 20px;
         font-family: Helvetica;
         font-size: 13px;
@@ -508,32 +529,27 @@ body{
         color: #565656;
     }
 
-    /* @supports (gap:13px){
-        .subcategory{
-            gap: 13px;
-            
-        }
+    .sub-options{
+        margin-top: 13px;
     }
 
-    @supports not (gap:13px){
-        .subcategory .sub-options{
-          
-            margin-top: 13px;
-        }
-    } */
+    .sub-options:first-child{
+        margin-top: 0px;
+    }
 
-    @supports (gap: 13px) {
+    /* @supports (display: flex) {
         .subcategory {
-          gap: 13px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
         }
       }
       
-      /* Fallback for browsers that do not support gap */
-      @supports not (gap: 13px) {
-        .subcategory .sub-options{
-          margin-bottom: 13px;
-        }
-      }
+      .subcategory {
+        display: block;
+        margin: 0 -1rem;
+        padding: 0 1rem;
+      } */
     
     .category-heading{
         display: flex;
@@ -691,7 +707,7 @@ body{
         display: flex;
         width: 100%;
         justify-content:center;
-        gap:55px;
+        /* gap:55px; */
     }
     
     .contact-info-container{
@@ -778,7 +794,7 @@ body{
         
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        /* gap: 15px; */
     }
     
     .Menu-option{
@@ -790,6 +806,11 @@ body{
         line-height: normal;
         letter-spacing: 0.22px;
         color: #000;
+        margin-top: 15px;
+    }
+
+    .Menu-option:first-child{
+        margin-top: 0%;
     }
     
     .About-us-paragraph{
@@ -948,7 +969,7 @@ body{
     .Navbar{
         display: flex;
         max-width: 510px;
-        gap: 49px;
+        /* gap: 49px; */
         font-family: Helvetica;
         font-size: 14px;
         font-weight: bold;
@@ -958,6 +979,14 @@ body{
         letter-spacing: normal;
         text-align: center;
         color: #606060;
+    }
+
+    .Navbar-option{
+        margin-right: 49px;
+    }   
+
+    .Navbar-option:last-child{
+        margin-right: 0%;
     }
     
     .Searchbar-container{
@@ -974,13 +1003,13 @@ body{
     
     .Searchbar-container-left{
         display: flex;
-        gap: 21px;
+        /* gap: 21px; */
         padding-top: 3px;
     }
     
     .Searchbar-container-right{
         display: flex;
-        gap: 20px;
+        /* gap: 20px; */
         padding-top: 3px;
         /* padding-right: 3px; */
     }
@@ -993,6 +1022,11 @@ body{
     .Searchbar-container-left-icon{
         width: 23px;
         height: 100%;
+        margin-right: 21px;
+    }
+
+    .Searchbar-container-left-icon:last-child{
+        margin-right: 0%;
     }
     
     .Searchbar-container-center{
@@ -1008,6 +1042,11 @@ body{
     .Searchbar-container-right-icon{
         width: 18px;
         height: 100%;
+        margin-left: 20px;
+    }
+
+    .Searchbar-container-right-icon:first-child{
+        margin-left: 0%;
     }
 
 }
