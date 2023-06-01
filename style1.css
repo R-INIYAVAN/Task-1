@@ -508,19 +508,32 @@ body{
         color: #565656;
     }
 
-    @supports (gap:13px){
+    /* @supports (gap:13px){
         .subcategory{
             gap: 13px;
-            /* background-color: yellow; */
+            
         }
     }
 
     @supports not (gap:13px){
         .subcategory .sub-options{
-            /* background-color: lime; */
+          
             margin-top: 13px;
         }
-    }
+    } */
+
+    @supports (gap: 13px) {
+        .subcategory {
+          gap: 13px;
+        }
+      }
+      
+      /* Fallback for browsers that do not support gap */
+      @supports not (gap: 13px) {
+        .subcategory .sub-options{
+          margin-bottom: 13px;
+        }
+      }
     
     .category-heading{
         display: flex;
