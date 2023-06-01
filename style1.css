@@ -507,6 +507,12 @@ body{
         letter-spacing: 0.22px;
         color: #565656;
     }
+
+    @supports not (gap:13px){
+        .sub-options{
+            margin-bottom: 13px;
+        }
+    }
     
     .category-heading{
         display: flex;
