@@ -509,8 +509,8 @@ body{
     }
 
     @supports not (gap:13px){
-        .sub-options{
-            margin-bottom: 13px;
+        .subcategory{
+            background-color: lime;
         }
     }
     
